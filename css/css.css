@@ -1,0 +1,140 @@
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .input-wrapper { 
+            padding: 6px 10px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background-color: #ffffff;
+            border-radius:15px;
+            margin: 0 auto;
+           
+        
+        }
+        
+        .input-wrapper i{
+            color: #000000;
+            cursor: pointer;
+        }
+        
+        .input-wrapper input {
+             background-color: transparent;
+             border: none;
+             color:#251f1f9c;
+             font-size: 15px;
+             margin: 0 auto;
+        }     
+             
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+            
+        }
+        
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        nav {
+            margin-top: 20px;
+            text-align: center;
+           
+            
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+
+        }
+        
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Define três colunas com largura igual */
+            gap: 20px; /* Espaçamento entre os produtos */
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+         .container {
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        
+         }
+
+        .Produto {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: white;
+        }
+
+        .Produto img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .Produto h2 {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+
+        .Produto p {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        .Produto button {
+            margin-top: 10px;
+            font-size: 20px;
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .Produto button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
